@@ -1,9 +1,7 @@
 {
-   
-    "dbHost": "localhost",   
-    "dbUser": "root",
-    "dbPassword": "2402",
-    "dbName": "Usuarios",
-    "dbPort": 3306
-    
+    "host": "localhost",
+    "user": "juliana",
+    "password": "juli12345",
+    "database": "maquillaje",
+    "port": 3306
 }

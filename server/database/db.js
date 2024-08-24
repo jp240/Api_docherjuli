@@ -6,11 +6,11 @@ const configPath = path.resolve('./server/database/config.json');
 const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
 
 const pool = mysql.createPool({
-    host: config.dbHost,
-    user: config.dbUser,
-    password: config.dbPassword,
-    database: config.dbName,
-    port: config.dbPort,
+    host: config.host,
+    user: config.user,
+    password: config.password,
+    database: config.database,
+    port: config.port,
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0
